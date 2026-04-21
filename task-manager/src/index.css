@@ -10,8 +10,27 @@ html, body, #root {
 }
 
 .app-name {
-  background: url("src/assets/water_background.jpg");;
+  background: url("src/assets/water_background2.jpg");;
   background-repeat: no-repeat;
   background-size: cover;
   height: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.landing-page-title {
+  margin-left: 5rem;
+  color: black;
+}
+
+.app-name h1 {
+  font-size: 5rem;
+}
+
+#translation {
+  font-style: italic;
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
